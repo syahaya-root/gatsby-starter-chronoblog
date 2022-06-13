@@ -1,7 +1,7 @@
 ---
-title: Full Blog Post Example
+title: How to Push to Github
 cover: ./image.jpg
-date: 2019-12-01
+date: 2022-06-13
 description: All the usual blog post.
 tags: ['post']
 ---
