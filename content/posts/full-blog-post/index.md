@@ -3,7 +3,7 @@ title: How to Push to Git
 cover: ./git.png
 date: 2022-06-13
 description: Git.
-tags: ['post']
+tags: ['git']
 ---
 
 - Before you continue the operation, It is recommended to fill in the author data first.
