@@ -1,5 +1,5 @@
 ---
-title: How to Push to Github
+title: How to Push to Git
 cover: ./image.jpg
 date: 2022-06-13
 description: All the usual blog post.
@@ -11,11 +11,14 @@ tags: ['post']
 git config --global user.name "username" ==> this for your username
 git config --global user.email "your_email" ==> this for your mail
 ```
-### Create a new repository in the Web Gitlab
+### Create a new repository in the Web Github
 
-- After you create new repository in Gitlab Web, you can clone the repository with command:
+- This reference for create new repository in Github :
+( https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository )
+
+- After you create new repository in Github Web, you can clone the repository with command:
 ```
-git clone https://gitlab.com/yourself/name_project.git
+git clone <URL_Repository>
 ```
 
 - Enter the the directory
@@ -29,12 +32,12 @@ cd name_directory
 git init
 ```
 
-- For connect your Gitlab project with your local directory, you can use command:
+- For connect your Github project with your local directory, you can use command:
 ```
 git remote add origin <project link> (make sure it is .git)
 ```
 
-- Please add the file to be transferred to Gitlab Project.
+- Please add the file to be transferred to Github Project.
 ```
 git add . ("." it is for all file in the directory)
 ```
@@ -55,4 +58,6 @@ git push -u origin master ("master" is default branch)
 ```
 
 Note: if you use the 2FA (Second Factor Authentication) you can change the URL remote in the file ".git/config", so like this:
+```
 url = https://oauth2:ACCESS_TOKEN@gitlab.com/yourself/name_project.git
+```
