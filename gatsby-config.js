@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Chronoblog Starter',
+    siteTitle: 'ChronoSyahaya',
     siteDescription: 'Starter for Gatsby Theme Chronoblog',
     siteImage: '/banner.png', // main image of the site for metadata
     siteUrl: 'https://chronoblog.now.sh/',
     pathPrefix: '/',
     siteLanguage: 'en',
     ogLanguage: `en_US`,
-    author: 'Site Author', // for example - 'Ivan Ganev'
-    authorDescription: 'short author description', // short text about the author
+    author: 'Syahaya', // for example - 'Ivan Ganev'
+    authorDescription: 'Just an ordinary person', // short text about the author
     avatar: '/avatar.jpg',
     twitterSite: '', // website account on twitter
     twitterCreator: '', // creator account on twitter
