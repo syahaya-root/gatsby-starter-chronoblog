@@ -1,8 +1,8 @@
 ---
 title: How to Push to Git
-cover: ./image.jpg
+cover: ./git.png
 date: 2022-06-13
-description: All the usual blog post.
+description: Git.
 tags: ['post']
 ---
 
