@@ -8,7 +8,33 @@ tags: ['Apache']
 
 # **CentOS**
 
-----
+---
+### Installation
+
+* Install httpd.
+```
+dnf -y install httpd
+```
+* Enter your file configuration httpd.
+```
+vi /etc/httpd/conf/httpd.conf
+```
+* Edit script And replace server name.
+```
+ServerAdmin root@<your_servername>
+ServerName www.<your_servername>:80
+Options FollowSymLinks
+AllowOverride All
+DirectoryIndex index.html index.php index.cgi
+ServerTokens Prod
+```
+* Enable configuration httpd.
+```
+systemctl enable --now httpd
+```
+
+### Configure Virtual Hostings
+
 * Go to file **vhost.conf**.
 ```
 vi /etc/httpd/conf.d/vhost.conf
