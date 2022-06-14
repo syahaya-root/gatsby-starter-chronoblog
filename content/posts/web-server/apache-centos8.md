@@ -2,11 +2,9 @@
 title: Apache on CentOS
 cover: ./apache.jpeg
 date: 2022-06-13
-description: Web Server.
+description: Web Server
 tags: ['Apache']
 ---
-
-# **CentOS**
 
 ---
 ### Installation
