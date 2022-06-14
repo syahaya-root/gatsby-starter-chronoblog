@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         icon: `github`,
-        url: `https://github.com/Chronoblog/gatsby-theme-chronoblog`,
+        url: `https://github.com/syahaya-root`,
       },
       {
         icon: `node-js`,
