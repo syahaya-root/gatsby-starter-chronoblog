@@ -1,5 +1,5 @@
 ---
-title: Ruby On Rails
+title: Gitlab Runner
 cover: ./runner.png
 date: 2022-07-01
 description: Gitlab-Runner
