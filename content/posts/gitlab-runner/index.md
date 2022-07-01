@@ -1,6 +1,6 @@
 ---
 title: Ruby On Rails
-cover: ./dockerruby.png
+cover: ./runner.png
 date: 2022-07-01
 description: Gitlab-Runner
 tags: ['Git']
